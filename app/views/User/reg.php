@@ -1,4 +1,4 @@
-<div class="login-box">
+<div class="container-sm">
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
@@ -19,6 +19,14 @@
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="file" name="image" class="form-control" placeholder="<?php __('image'); ?>" value="<?php echo isset($_SESSION['fdata']['login']) ? h($_SESSION['fdata']['login']) : '' ?>">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-image"></span>
                         </div>
                     </div>
                 </div>
@@ -46,24 +54,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-check">
-                        <div>
-                            <input class="form-check-input" type="radio" name="role" value="user" id="" checked>
-                            <label class="form-check-label" for="">
-                                Пользователь
-                            </label>
-                        </div>
+                <select name="role" class="form-select" aria-label="Выберите роль">
+                    <option value="user">Пользователь</option>
                     <?php $roles = \R::findAll('roles'); ?>
                     <?php foreach ($roles as $role): ?>
-                        <div>
-                            <input class="form-check-input" type="radio" name="role" value="<?php echo $role['type'] ?>" id="">
-                            <label class="form-check-label" for="">
-                                <?php echo $role['name'] ?>
-                            </label>
-                        </div>
+                        <option value="<?php echo $role['type'] ?>"><?php echo $role['name'] ?></option>
                     <?php endforeach; ?>
-                </div>
-                <div class="row">
+                </select>
+                <div class="row mt-4">
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-block"><?php __('reg'); ?></button>
                     </div>

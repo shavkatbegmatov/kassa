@@ -16,10 +16,12 @@ $user = new \app\models\User();
 <?php endif; ?>
 
 <div class="panel panel-default">
-    <div class="panel-heading"><?php __('acc'); ?></div>
+    <div class="panel-heading"><a href="/user/"><?php __('cabinet'); ?></a></div>
+    <div class="panel-body">
+        asd
+    </div>
     <div class="list-group">
         <?php if (!isset($_SESSION['user'])): ?>
-            <a href="/user/reg" class="list-group-item list-group-item-action"><?php __('reg'); ?></a>
             <a href="/user/log" class="list-group-item list-group-item-action"><?php __('log'); ?></a>
         <?php else: ?>
             <a href="/user/" class="list-group-item list-group-item-action"><?php __('cabinet'); ?></a>
