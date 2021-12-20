@@ -12,7 +12,7 @@ define('LIBS', dirname(__DIR__) . '/vendor/framework/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'def');
-define('ADMIN', 'http://med.loc/admin');
+define('ADMIN', 'http://kassa.loc/admin');
 
 require '../vendor/framework/libs/functions.php';
 require __DIR__ . '/../vendor/autoload.php';
@@ -40,7 +40,13 @@ Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' 
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
+
+
 Router::dispatch($query);
+
+// error_log(Router::getRoute()['controller'] . "\n", 3, "test.txt");
+error_log("555", 3, "test.txt");
+echo "789";
 
 if (isset($_SESSION['user'])) {
     if ($_SESSION['user']['role'] != 'admin') {

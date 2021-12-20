@@ -2,9 +2,10 @@
 
 namespace framework\widgets\language;
 
+
 use framework\core\App;
 
-class Language {
+class Language{
 
     protected $tpl;
     protected $languages;
@@ -38,9 +39,7 @@ class Language {
 
     protected function getHtml(){
         ob_start();
-
         require_once $this->tpl;
-
         return ob_get_clean();
     }
 
