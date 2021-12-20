@@ -4,6 +4,7 @@ namespace framework\widgets\language;
 
 
 use framework\core\App;
+use app\models\Main;
 
 class Language{
 

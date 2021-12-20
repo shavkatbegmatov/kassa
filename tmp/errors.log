@@ -2488,3 +2488,333 @@
 ///////////////////////////
 [2021-12-21 00:51:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 64 
 ///////////////////////////
+[2021-12-21 00:53:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 00:53:31] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 13 
+///////////////////////////
+[2021-12-21 00:54:51] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 13 
+///////////////////////////
+[2021-12-21 00:59:29] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 00:59:32] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:02:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:03:53] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:10:21] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 52 
+///////////////////////////
+[2021-12-21 01:13:26] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 52 
+///////////////////////////
+[2021-12-21 01:14:25] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 13 
+///////////////////////////
+[2021-12-21 01:14:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:19] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:15:21] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:15:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:15:43] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\Lang.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:17:36] Текст ошибки: Class "app\controllers\admin\App" not found | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\AppController.php, | Строка: 14 
+///////////////////////////
+[2021-12-21 01:17:59] Текст ошибки: Class "app\controllers\admin\Language" not found | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\AppController.php, | Строка: 15 
+///////////////////////////
+[2021-12-21 01:17:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:18:52] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 26 
+///////////////////////////
+[2021-12-21 01:18:53] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 26 
+///////////////////////////
+[2021-12-21 01:19:20] Текст ошибки: Call to undefined method framework\widgets\language\Language::getLanguages() | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\AppController.php, | Строка: 16 
+///////////////////////////
+[2021-12-21 01:19:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:19:38] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 26 
+///////////////////////////
+[2021-12-21 01:19:58] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:19:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:19:58] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:19:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:19:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:20:18] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:20:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:20:18] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:20:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:20:19] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:20:19] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:10] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:11] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:11] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:30] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:31] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:31] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:44] Текст ошибки: Class "framework\widgets\language\R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:21:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:21:54] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:22:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:22:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:22:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:22:24] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:22:26] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\widgets\language\Language.php, | Строка: 27 
+///////////////////////////
+[2021-12-21 01:23:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:23:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:31:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:31:19] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:31:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:40:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:44:59] Текст ошибки: Undefined variable $roles | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Users\index.php, | Строка: 20 
+///////////////////////////
+[2021-12-21 01:45:04] Текст ошибки: Undefined variable $roles | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Users\index.php, | Строка: 20 
+///////////////////////////
+[2021-12-21 01:45:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:45:09] Текст ошибки: Undefined variable $roles | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Users\index.php, | Строка: 20 
+///////////////////////////
+[2021-12-21 01:53:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:56:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:56:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:58:00] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 64 
+///////////////////////////
+[2021-12-21 01:58:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:58:41] Текст ошибки: Контроллер <b>app\controllers\admin\9Controller</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 64 
+///////////////////////////
+[2021-12-21 01:59:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 01:59:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:00:34] Текст ошибки: compact(): Undefined variable $test | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\UserController.php, | Строка: 15 
+///////////////////////////
+[2021-12-21 02:00:59] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/delete.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 02:01:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:13:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:13:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:13:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:14:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:14:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:16:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:22:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:22:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:22:46] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2021-12-21 02:22:59] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2021-12-21 02:24:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:24:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:24:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:24:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:27:47] Текст ошибки: Метод <b>app\controllers\UserController::updateAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:28:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:29:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:29:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:29:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:30:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:30:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:30:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:30:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:31:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:31:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:31:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:31:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:31:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:32:17] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:33:19] Текст ошибки: OODB Store requires a bean, got: NULL | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 10226 
+///////////////////////////
+[2021-12-21 02:33:34] Текст ошибки: OODB Store requires a bean, got: NULL | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 10226 
+///////////////////////////
+[2021-12-21 02:34:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:35:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:36:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:36:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:36:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:37:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:37:07] Текст ошибки: OODB Store requires a bean, got: NULL | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 10226 
+///////////////////////////
+[2021-12-21 02:37:08] Текст ошибки: OODB Store requires a bean, got: NULL | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 10226 
+///////////////////////////
+[2021-12-21 02:37:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:38:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:39:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:40:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:40:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:40:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:41:35] Текст ошибки: Метод <b>app\controllers\ProductController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:41:36] Текст ошибки: Метод <b>app\controllers\ProductController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:41:45] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:41:59] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:42:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:42:05] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:42:09] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:42:11] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:42:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:42:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:42:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 02:43:06] Текст ошибки: Метод <b>app\controllers\UserController::deleteAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:44:31] Текст ошибки: Метод <b>app\controllers\admin\UserController::updateAction</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 61 
+///////////////////////////
+[2021-12-21 02:49:28] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 02:49:36] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 02:49:39] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 02:49:42] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 02:53:35] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 02:54:09] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 02:54:30] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 02:57:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////

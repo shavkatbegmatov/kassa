@@ -28,14 +28,17 @@ new \framework\core\App;
 
 debug(ROOT);
 
-Router::add('^blog/(?P<action>[a-z-]+)/(?P<alias>[a-z-1-9-]+)$', ['controller' => 'Blog']);
-Router::add('^blog/(?P<alias>[a-z-1-9-]+)$', ['controller' => 'Blog', 'action' => 'show']);
+Router::add('^blog/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Blog']);
+Router::add('^blog/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Blog', 'action' => 'show']);
 
-Router::add('^product/(?P<action>[a-z-]+)/(?P<alias>[a-z-1-9-]+)$', ['controller' => 'Product']);
-Router::add('^product/(?P<alias>[a-z-1-9-]+)$', ['controller' => 'Product', 'action' => 'show']);
+Router::add('^product/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Product']);
+Router::add('^product/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Product', 'action' => 'show']);
 
 Router::add('^admin$', ['controller' => 'Main', 'action' => 'index', 'prefix' => 'admin']);
 Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' => 'admin']);
+
+Router::add('^admin/user/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'User', 'prefix' => 'admin']);
+Router::add('^admin/user/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'User', 'action' => 'delete', 'prefix' => 'admin']);
 
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');

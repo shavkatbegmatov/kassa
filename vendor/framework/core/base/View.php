@@ -49,6 +49,7 @@ class View {
     }
 
     public function render($vars) {
+        debug(App::$app->getProperty('lang'));
         Lang::load(App::$app->getProperty('lang'), $this->route);
         $this->route['prefix'] = str_replace('\\', '/', $this->route['prefix']);
         if (is_array($vars)) {

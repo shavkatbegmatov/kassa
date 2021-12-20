@@ -7,10 +7,26 @@ use framework\core\base\View;
 
 class UserController extends AppController {
 
-    public function indexAction() {
-        $test = 'The Best Lang Is PHP';
+    public function deleteAction() {
+        $alias = $this->route['alias'];
+        $user = \R::findOne('user', 'id = ?', [$alias]);
+        \R::trash($user);
+        redirect();
         View::setMeta('Dash - Главная страница', 'Desc', 'Keys');
-        $this->set(compact('test'));
+        
+        // $this->set(compact('test'));
+    }
+
+    public function updateAction() {
+        $alias = $this->route['alias'];
+        $user = \R::findOne('user', 'id = ?', [$alias]);
+        if ($_GET['checked'] == true) {
+            $user['status'] = 1;
+        } else {
+            $user['status'] = 0;
+        }
+        \R::store($user);
+        redirect();
     }
 
     public function loginAction() {
