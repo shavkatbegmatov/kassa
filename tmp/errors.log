@@ -2818,3 +2818,55 @@
 ///////////////////////////
 [2021-12-21 02:57:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
 ///////////////////////////
+[2021-12-21 03:02:10] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:02:29] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:02:46] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:04:14] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:05:20] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:05:48] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:06:27] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:06:28] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:06:28] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:06:31] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:06:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:06:40] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:07:02] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:07:10] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:07:15] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 6524 
+///////////////////////////
+[2021-12-21 03:07:39] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:08:05] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/admin/User/update.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 65 
+///////////////////////////
+[2021-12-21 03:08:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:15:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:15:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:15:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:15:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:18:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:18:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:18:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////
+[2021-12-21 03:18:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 67 
+///////////////////////////

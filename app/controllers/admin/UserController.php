@@ -20,13 +20,19 @@ class UserController extends AppController {
     public function updateAction() {
         $alias = $this->route['alias'];
         $user = \R::findOne('user', 'id = ?', [$alias]);
-        if ($_GET['checked'] == true) {
+        debug($user);
+        // debug("CH = " . $_GET['checked']);
+        if ($_GET['checked'] === "true") {
             $user['status'] = 1;
+            debug("c1");
         } else {
             $user['status'] = 0;
+            debug("c0");
         }
+        debug($user);
         \R::store($user);
         redirect();
+        //exit();
     }
 
     public function loginAction() {
