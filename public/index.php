@@ -26,8 +26,6 @@ require __DIR__ . '/../vendor/autoload.php';
 
 new \framework\core\App;
 
-debug(ROOT);
-
 Router::add('^blog/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Blog']);
 Router::add('^blog/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Blog', 'action' => 'show']);
 
@@ -46,10 +44,6 @@ Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
 
 Router::dispatch($query);
-
-// error_log(Router::getRoute()['controller'] . "\n", 3, "test.txt");
-error_log("555", 3, "test.txt");
-echo "789";
 
 if (isset($_SESSION['user'])) {
     if ($_SESSION['user']['role'] != 'admin') {

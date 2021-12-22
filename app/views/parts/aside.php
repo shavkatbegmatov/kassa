@@ -8,7 +8,6 @@ $user = new \app\models\User();
 
 <?php if ($user::isAdmin()): ?>
     <div class="panel panel-default">
-        <div class="panel-heading">Dashboard</div>
         <div class="list-group">
             <a href="/admin/" class="list-group-item list-group-item-action">Dashboard</a>
         </div>

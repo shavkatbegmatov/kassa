@@ -18,7 +18,6 @@ abstract class Controller {
     }
 
     public function getView() {
-        debug($this->layout);
         $vObj = new View($this->route, $this->layout, $this->view);
         $vObj->render($this->vars);
     }

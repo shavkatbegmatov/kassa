@@ -1,4 +1,9 @@
 <div class="panel panel-default">
+    <div class="list-group">
+        <a href="/" class="list-group-item list-group-item-action">Back to site</a>
+    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading">Навигация</div>
     <div class="list-group">
         <a href="/admin/blog/create" class="list-group-item list-group-item-action">Добавить пост</a>

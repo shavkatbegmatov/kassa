@@ -10,7 +10,6 @@ class Lang {
     public static $lang_view = [];
 
     public static function load($code, $view){
-        debug($code);
         $lang_layout = APP . "/langs/{$code['code']}.php";
         $lang_view = APP . "/langs/{$code['code']}/{$view['controller']}/{$view['action']}.php";
         if(file_exists($lang_layout)){

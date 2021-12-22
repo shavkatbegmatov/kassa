@@ -105,12 +105,22 @@ input:checked + .slider:before {
                             </label>
                         <?php endif; ?>
                     </td>
-                    <td><a style="cursor: pointer;" onclick="ask('/admin/user/delete/<?php echo $user['id'] ?>')">Удалить</a></td>
+                    <td>
+                        <?php if ($user['role'] != 'admin'): ?>
+                            <a class="btn btn-danger" onclick="ask('/admin/user/delete/<?php echo $user['id'] ?>')">Удалить</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
 </div>
+
+<?php
+    $_SESSION['undo_url'] = $_SERVER['REQUEST_URI'];
+    debug($_SESSION['undo_url']);
+?>
+
 
 <script>
     function ask(url) {

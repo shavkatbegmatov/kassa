@@ -44,13 +44,9 @@ class Router {
     }
 
     public static function dispatch($url) {
-        if (isset($_SESSION['user'])) {
-            debug($_SESSION['user']['role']);
-        }
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
-            debug($controller);
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
