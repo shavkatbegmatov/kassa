@@ -12,9 +12,13 @@ abstract class Controller {
 
     public $vars = [];
 
+    public $undo_url;
+
     public function __construct($route) {
         $this->route = $route;
         $this->view = $route['action'];
+        $this->undo_url = $_SERVER['REQUEST_URI'];
+        //$_SESSION['undo_url'] = $_SERVER['REQUEST_URI'];
     }
 
     public function getView() {

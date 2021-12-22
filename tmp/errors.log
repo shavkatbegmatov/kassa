@@ -2966,3 +2966,43 @@
 ///////////////////////////
 [2021-12-22 03:38:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
 ///////////////////////////
+[2021-12-22 11:34:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:34:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:37:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:37:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:37:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:37:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:38:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:38:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 11:38:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:03:17] Текст ошибки: Undefined variable $users | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\index.php, | Строка: 17 
+///////////////////////////
+[2021-12-22 12:03:45] Текст ошибки: compact(): Undefined variable $patients | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\PatientController.php, | Строка: 12 
+///////////////////////////
+[2021-12-22 12:03:46] Текст ошибки: compact(): Undefined variable $patients | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\PatientController.php, | Строка: 12 
+///////////////////////////
+[2021-12-22 12:03:46] Текст ошибки: compact(): Undefined variable $patients | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\PatientController.php, | Строка: 12 
+///////////////////////////
+[2021-12-22 12:03:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:04:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:04:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:06:19] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:06:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:09:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 12:09:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
