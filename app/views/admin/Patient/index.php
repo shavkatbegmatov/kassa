@@ -6,24 +6,24 @@
                 <th>ID</th>
                 <th>Имя</th>
                 <th>Фамилия</th>
-                <th>Отцество</th>
+                <th>Отчество</th>
                 <th>Адрес</th>
-                <th>ИНФЛ</th>
-                <th>Поспорт Серия</th>
+                <th>ПИНФЛ</th>
+                <th>Серия и номер паспорта</th>
                 <th>Дата рождения</th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($users as $user): ?>
+            <?php foreach ($patients as $patient): ?>
                 <tr>
-                    <td><?php echo $user['id'] ?></td>
-                    <td><?php echo $user['first_name'] ?></td>
-                    <td><?php echo $user['last_name'] ?></td>
-                    <td><?php echo $user['middle_name'] ?></td>
-                    <td><?php echo $user['address'] ?></td>
-                    <td><?php echo $user['infl'] ?></td>
-                    <td><?php echo $user['passport'] ?></td>
-                    <td><?php echo $user['birth_date'] ?></td>
+                    <td><?php echo $patient['id'] ?></td>
+                    <td><a href="/admin/patients/detailed/<?php echo $patient['id'] ?>"><?php echo $patient['first_name'] ?></a></td>
+                    <td><?php echo $patient['last_name'] ?></td>
+                    <td><?php echo $patient['middle_name'] ?></td>
+                    <td><?php echo $patient['address'] ?></td>
+                    <td><?php echo $patient['infl'] ?></td>
+                    <td><?php echo $patient['passport'] ?></td>
+                    <td><?php echo $patient['birth_date'] ?></td>
                 </tr>
             <?php endforeach; ?>
         </tbody>

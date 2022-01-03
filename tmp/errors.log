@@ -3006,3 +3006,157 @@
 ///////////////////////////
 [2021-12-22 12:09:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
 ///////////////////////////
+[2021-12-22 12:55:24] Текст ошибки: Undefined variable $user | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\index.php, | Строка: 21 
+///////////////////////////
+[2021-12-22 12:57:52] Текст ошибки: Undefined variable $user | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\index.php, | Строка: 21 
+///////////////////////////
+[2021-12-22 12:58:32] Текст ошибки: Undefined variable $user | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\index.php, | Строка: 21 
+///////////////////////////
+[2021-12-22 13:00:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:02:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:03:14] Текст ошибки: Undefined array key "alias" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\admin\PatientController.php, | Строка: 11 
+///////////////////////////
+[2021-12-22 13:04:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:07:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:37:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:38:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:39:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:39:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:39:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:39:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:40:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:41:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:41:36] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:41:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:49:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:49:56] Текст ошибки: Undefined variable $user | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-22 13:54:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:54:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:54:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 13:54:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 14:01:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 14:08:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 14:08:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 14:08:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-22 14:09:11] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-22 14:09:23] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-22 14:09:38] Текст ошибки: Контроллер <b>app\controllers\AsdasdController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
+///////////////////////////
+[2021-12-22 14:09:48] Текст ошибки: Контроллер <b>app\controllers\AsdasdController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 15 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 16 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 48 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 56 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 64 
+///////////////////////////
+[2021-12-22 14:09:54] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 72 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 15 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 16 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 40 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 48 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 56 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 64 
+///////////////////////////
+[2021-12-22 14:09:55] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 72 
+///////////////////////////
+[2021-12-22 14:10:08] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\admin\Patient\detailed.php, | Строка: 14 
+///////////////////////////
+[2021-12-23 05:28:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 05:28:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 09:41:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 09:41:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 12:34:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 12:34:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-23 12:34:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-24 05:27:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-24 05:27:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-24 05:27:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-24 05:31:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-24 05:31:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-27 10:05:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-27 10:05:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2021-12-27 10:05:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-02 13:38:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-02 13:38:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-02 13:38:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-02 13:40:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-02 13:40:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-03 05:48:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-03 05:48:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-03 05:49:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-03 06:01:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////

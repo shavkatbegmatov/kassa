@@ -62,7 +62,7 @@ input:checked + .slider:before {
 
 <div class="panel panel-default">
     <div class="panel-heading">Users</div>
-    <table class="table table-hover">
+    <table class="table table-hover align-middle">
         <thead>
             <tr>
                 <th>ID</th>

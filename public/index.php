@@ -38,6 +38,9 @@ Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' 
 Router::add('^admin/user/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'User', 'prefix' => 'admin']);
 Router::add('^admin/user/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'User', 'action' => 'delete', 'prefix' => 'admin']);
 
+Router::add('^admin/patients/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Patient', 'prefix' => 'admin']);
+// Router::add('^admin/patients/(?P<alias>[a-z-0-9-]+)$', ['controller' => 'Patient', 'action' => 'delete', 'prefix' => 'admin']);
+
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
