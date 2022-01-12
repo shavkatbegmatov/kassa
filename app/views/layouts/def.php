@@ -10,6 +10,7 @@
 
     <style>
         body {
+            height: 100vh;
             margin: 0px;
         }
 
@@ -74,13 +75,16 @@
         }
 
         .navbar-acc-author {
+            min-width: 150px;
+            height: 100%;
+            display: block;
             border: none;
             cursor: pointer;
             background: #ffffff;
             color: #003b81;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 0.9rem;
-            padding: 12px 8px;
+            /* padding: 12px 24px; */
         }
 
         .navbar-acc-author:hover {
@@ -119,28 +123,60 @@
             transition: 0.3s;
         }
 
-        .navbar-acc-author:focus ~ .navbar-acc-list {
+        .show {
             display: block;
+            animation: show;
+            transition: 0.5s;
         }
 
-        .navbar-acc-author:focus > .fa-caret-down {
+        .rotate {
             transform: rotate(180deg);
+        }
+
+        @keyframes show {
+            0% {
+                opacity: 0;
+            },
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
 <body>
+
+    <?php
+        $tag = '';
+
+        if (isset($_SESSION['user'])) {
+            $tag = 'button';
+        } else {
+            $tag = 'a';
+        }
+    ?>
 
     <div class="navbar">
         <div class="container">
             <ul class="navbar-list navbar-top">
                 <li class="navbar-logo">Bekzod Group</li>
                 <li class="navbar-acc">
-                    <button class="navbar-acc-author">Жавохир Абдухалилов <i class="fas fa-caret-down"></i></button>
-                    <ul class="navbar-acc-list">
-                        <li class="navbar-acc-item"><a href=""><i class="fas fa-newspaper"></i> Кабинет</a></li>
-                        <li class="navbar-acc-item"><a href=""><i class="fas fa-users-cog"></i> Профиль</a></li>
-                        <li class="navbar-acc-item"><a href=""><i class="fas fa-sign-out-alt"></i> Покинуть</a></li>
-                    </ul>
+                    <button class="navbar-acc-author dropbtn" onclick="myFunction()">
+                        <?php if (isset($_SESSION['user'])): ?>
+                            <?php echo $_SESSION['user']['name'] ?>
+                        <?php else: ?>
+                            <?php __('log') ?>
+                        <?php endif; ?>
+                        <?php if (isset($_SESSION['user'])): ?>
+                            <i class="fas fa-caret-down"></i>
+                        <?php endif; ?>
+                    </button>
+                    <?php if (isset($_SESSION['user'])): ?>
+                        <ul class="navbar-acc-list">
+                            <li class="navbar-acc-item"><a href="/dashboard/"><i class="fas fa-newspaper"></i> Кабинет</a></li>
+                            <li class="navbar-acc-item"><a href="/user/"><i class="fas fa-user-cog"></i> Профиль</a></li>
+                            <li class="navbar-acc-item"><a href="/user/logout"><i class="fas fa-sign-out-alt"></i> Покинуть</a></li>
+                        </ul>
+                    <?php endif; ?>
                 </li>
             </ul>
             <ul class="navbar-list">
@@ -151,10 +187,56 @@
         </div>
     </div>
 
+    <div class="container">
+        <?php echo $content; ?>
+    </div>
+
     <?php
         foreach ($scripts as $script) {
             echo $script;
         }
     ?>
+
+    <script>
+        let dropdownBox = document.querySelector('.navbar-acc-list');
+        let arrow = document.querySelector('.fa-caret-down');
+
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            <?php if (!isset($_SESSION['user'])): ?>
+                window.location = '/user/log';
+            <?php else: ?>
+                dropdownBox.classList.toggle("show");
+                arrow.classList.toggle("rotate");
+            <?php endif; ?>
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("navbar-acc-list");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    if (arrow.classList.contains('rotate')) {
+                        arrow.classList.remove('rotate');
+                    }
+                }
+            }
+        }
+
+        let modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
