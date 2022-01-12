@@ -14,21 +14,22 @@ $user = new \app\models\User();
     </div>
 <?php endif; ?>
 
-<div class="panel panel-default">
-    <div class="panel-heading"><a href="/user/"><?php __('cabinet'); ?></a></div>
-    <div class="panel-body">
-        asd
-    </div>
-    <div class="list-group">
-        <?php if (!isset($_SESSION['user'])): ?>
-            <a href="/user/log" class="list-group-item list-group-item-action"><?php __('log'); ?></a>
-        <?php else: ?>
+<?php if (isset($_SESSION['user'])): ?>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="/user/"><?php __('cabinet'); ?></a></div>
+        <div class="panel-body">
+            asd
+        </div>
+        <div class="list-group">
             <a href="/user/" class="list-group-item list-group-item-action"><?php __('cabinet'); ?></a>
-            <a href="/user/logout" class="list-group-item list-group-item-action"><?php __('logout'); ?></a>
-        <?php endif; ?>
+            <a style="width:100%" href="/user/logout" class="btn btn-danger"><?php __('logout'); ?></a>
+        </div>
     </div>
-</div>
+<?php else: ?>
+    <a style="margin-bottom: 24px;" href="/user/log" class="btn btn-success"><?php __('log'); ?></a>
+    
 
+<?php endif; ?>
 
 
 

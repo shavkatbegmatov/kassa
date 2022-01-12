@@ -4,9 +4,7 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Имя</th>
-                <th>Фамилия</th>
-                <th>Отчество</th>
+                <th>ФИО</th>
                 <th>Адрес</th>
                 <th>ПИНФЛ</th>
                 <th>Серия и номер паспорта</th>
@@ -17,9 +15,7 @@
             <?php foreach ($patients as $patient): ?>
                 <tr>
                     <td><?php echo $patient['id'] ?></td>
-                    <td><a href="/admin/patients/detailed/<?php echo $patient['id'] ?>"><?php echo $patient['first_name'] ?></a></td>
-                    <td><?php echo $patient['last_name'] ?></td>
-                    <td><?php echo $patient['middle_name'] ?></td>
+                    <td><a href="/admin/patients/detailed/<?php echo $patient['id'] ?>"><?php echo $patient['last_name'] . " " . $patient['first_name'] . " " . $patient['middle_name'] ?></a></td>
                     <td><?php echo $patient['address'] ?></td>
                     <td><?php echo $patient['infl'] ?></td>
                     <td><?php echo $patient['passport'] ?></td>

@@ -48,14 +48,14 @@ Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
 Router::dispatch($query);
 
-if (isset($_SESSION['user'])) {
-    if ($_SESSION['user']['role'] != 'admin') {
-        if ($_SESSION['user']['role'] != 'user') {
-            if (Router::getRoute()['controller'] != ucfirst($_SESSION['user']['role'])) {
-                if (Router::getRoute()['controller'] != 'User') {
-                    redirect('/' . $_SESSION['user']['role']);
-                }
-            }
-        }
-    }
-}
+// if (isset($_SESSION['user'])) {
+//     if ($_SESSION['user']['role'] != 'admin') {
+//         if ($_SESSION['user']['role'] != 'user') {
+//             if (Router::getRoute()['controller'] != ucfirst($_SESSION['user']['role'])) {
+//                 if (Router::getRoute()['controller'] != 'User') {
+//                     redirect('/' . $_SESSION['user']['role']);
+//                 }
+//             }
+//         }
+//     }
+// }

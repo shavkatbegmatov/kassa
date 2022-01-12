@@ -1,123 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php \framework\core\base\View::getMeta(); ?>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-      <script>
-        $( function() {
-            $( "#datepicker" ).datepicker();
-        } );
-    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css">
+
     <style>
-        * {
-            outline: none !important;
+        body {
+            margin: 0px;
         }
 
-        body .bootstrap-select .dropdown-toggle:focus {
-            outline: none !important;
+        .navbar {
+            background: #003b81;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
-        .nav-link, .nav-active a {
+        .navbar-list {
+            display: block;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar-item {
+            display: inline-block;
+            padding: 0px 12px;
+        }
+
+        .navbar-item:first-child {
+            padding: 0px 12px 0px 0px;
+        }
+
+        .navbar-item a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 400;
+            padding: 12px 0px;
+        }
+
+        .navbar-top {
             display: flex;
-            width: 45px;
-            height: 45px;
-            justify-content: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #002e66;
+            padding: 12px 0px;
+        }
+
+        .navbar-logo {
+            width: 325px;
+            display: flex;
             align-items: center;
-            background: #0c84ff;
-            color: #fff;
+            color: #ffffff;
+            letter-spacing: 0.7px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            font-size: 1.3rem;
         }
 
-        .selectpicker {
-            outline: none;
+        .navbar-acc {
+            position: relative;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-size: 1.1rem;
         }
 
-        .bootstrap-select {
-            width: 100% !important;
-            margin-bottom: 20px;
+        .navbar-acc-author {
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            color: #ffffff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .navbar-acc-list {
+            width: 100%;
+            left: 0px;
+            position: absolute;
+            display: none;
+            list-style: none;
+            background: #ffffff;
+            transform: translateY(50px);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar-acc-item {
+            display: inline-block;
+            padding: 0px 12px;
+        }
+
+        .navbar-acc-item:first-child {
+            padding: 0px 12px 0px 0px;
+        }
+
+        .navbar-acc-item a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 400;
+            padding: 12px 0px;
+        }
+
+        .navbar-acc-author:focus ~ .navbar-acc-list {
+            display: block;
         }
     </style>
 </head>
-
 <body>
-<div class="container">
-    <nav class="navbar navbar-inverse">
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">   <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
 
-            <a class="navbar-brand" href="/">Med</a>
-        </div>
-        <div class="collapse navbar-collapse js-navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#"><?php __('home'); ?></a></li>
-                <li><a href="#"><?php __('about'); ?></a></li>
-                <li><a href="#"><?php __('contact'); ?></a></li>
-                <li><a href="#"><?php __('catalog'); ?></a></li>
+    <div class="navbar">
+        <div class="container">
+            <ul class="navbar-list navbar-top">
+                <li class="navbar-logo">Bekzod Group</li>
+                <li class="navbar-acc">
+                    <button class="navbar-acc-author">Жавохир Абдухалилов</button>
+                    <ul class="navbar-acc-list">
+                        <li class="navbar-acc-item"><a href="">Кабинет</a></li>
+                        <li class="navbar-acc-item"><a href="">Профиль</a></li>
+                        <li class="navbar-acc-item"><a href="">Покинуть</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="">О нас</a></li>
+                <li class="navbar-item"><a href="">Контакт</a></li>
+                <li class="navbar-item"><a href="">Вакансии</a></li>
             </ul>
         </div>
-        <!-- /.nav-collapse -->
-    </nav>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <?php $this->getPart('parts/aside') ?>
-        </div>
-        <div class="col-md-9">
-
-            <?php if (isset($_SESSION['error'])): ?>
-                <div class="alert alert-danger">
-                    <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
-                </div>
-            <?php endif; ?>
-
-            <?php if (isset($_SESSION['success'])): ?>
-                <div class="alert alert-success">
-                    <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
-                </div>
-            <?php endif; ?>
-
-            <?php
-            if (isset($_SESSION['user'])) {
-                if ($_SESSION['user']['role'] == '3') {
-                    echo 'You are Admin';
-                }
-            }
-            ?>
-
-            <?php echo $content; ?>
-
-            <!-- <pre>Hello, RedBeanPHP</pre> -->
-        </div>
     </div>
-</div>
 
-<?php
-//        debug(\framework\core\base\Lang::$langData);
-?>
-
-
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
-<script src="/js/main.js"></script>
-<?php
-foreach ($scripts as $script) {
-    echo $script;
-}
-?>
+    <?php
+        foreach ($scripts as $script) {
+            echo $script;
+        }
+    ?>
 </body>
-
 </html>
