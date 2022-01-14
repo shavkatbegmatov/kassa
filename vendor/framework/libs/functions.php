@@ -20,7 +20,11 @@ function h($str) {
     return htmlspecialchars($str, ENT_QUOTES);
 }
 
-function __($key) {
-    echo \framework\core\base\Lang::get($key);
+function __($key, $echo = true) {
+    if ($echo === false) {
+        return \framework\core\base\Lang::get($key);
+    } else {
+        echo \framework\core\base\Lang::get($key);
+    }
 }
 

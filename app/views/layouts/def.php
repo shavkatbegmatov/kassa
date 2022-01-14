@@ -202,9 +202,7 @@
                 </li>
             </ul>
             <ul class="navbar-list">
-                <li class="navbar-item"><a href="">Добавить товар</a></li>
-                <li class="navbar-item"><a href="">Склад</a></li>
-                <li class="navbar-item"><a href="">Статистика</a></li>
+                <?php framework\core\base\View::getPart('parts/menu'); ?>
             </ul>
         </div>
     </div>

@@ -3854,3 +3854,7 @@
 ///////////////////////////
 [2022-01-14 12:43:11] Текст ошибки: Контроллер <b>app\controllers\DashboardController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
 ///////////////////////////
+[2022-01-14 14:29:43] Текст ошибки: syntax error, unexpected token ")" | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 2 
+///////////////////////////
+[2022-01-14 17:49:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
