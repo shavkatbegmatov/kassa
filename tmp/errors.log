@@ -3850,3 +3850,7 @@
 ///////////////////////////
 [2022-01-14 12:36:44] Текст ошибки: Контроллер <b>app\controllers\DashboardController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
 ///////////////////////////
+[2022-01-14 12:41:25] Текст ошибки: Контроллер <b>app\controllers\DashboardController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
+///////////////////////////
+[2022-01-14 12:43:11] Текст ошибки: Контроллер <b>app\controllers\DashboardController</b> не найден | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 60 
+///////////////////////////

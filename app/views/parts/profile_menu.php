@@ -8,7 +8,7 @@
 </button>
 <?php if (isset($_SESSION['user'])): ?>
     <ul class="navbar-acc-list list-acc">
-        <li class="navbar-acc-item"><a href="/dashboard/"><i class="fas fa-newspaper"></i> Кабинет</a></li>
+        <li class="navbar-acc-item"><a href="/<?php echo $_SESSION['user']['role'] ?>/"><i class="fas fa-newspaper"></i> Кабинет</a></li>
         <li class="navbar-acc-item"><a href="/user/"><i class="fas fa-user-cog"></i> Профиль</a></li>
         <li class="navbar-acc-item"><a href="/user/logout"><i class="fas fa-sign-out-alt"></i> Покинуть</a></li>
     </ul>

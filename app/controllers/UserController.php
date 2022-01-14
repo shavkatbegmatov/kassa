@@ -50,7 +50,7 @@ class UserController extends AppController {
                 $_SESSION['error'] = 'Ник/пароль введены неверно!';
                 redirect();
             }
-            redirect('/');
+            redirect('/' . $_SESSION['user']['role']);
         }
 
         View::setMeta('Авторизация');
