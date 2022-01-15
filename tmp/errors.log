@@ -3898,3 +3898,7 @@
 ///////////////////////////
 [2022-01-15 16:07:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
 ///////////////////////////
+[2022-01-15 16:45:25] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'er' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 16:56:27] Текст ошибки: syntax error, unexpected token ")" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 30 
+///////////////////////////

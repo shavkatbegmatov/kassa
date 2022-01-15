@@ -223,6 +223,9 @@
     </div>
 
     <div class="container">
+        <?php if (isset($_SESSION['error'])): ?>
+            <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+        <?php endif; ?>
         <?php echo $content; ?>
     </div>
 

@@ -23,13 +23,21 @@ class AptekaController extends AppController {
     }
 
     public function addAction() {
+        $prods = \R::findAll('products');
+        debug($prods);
         if ($_POST) {
-            $prod = \R::dispense('products');
-            $prod['name'] = $_POST['title'];
-            $prod['date'] = date('d/m/Y');
-            \R::store($prod);
+            if (!empty($_POST['name'])) {
+                if ('5' == '5') {
+                    $prod = \R::dispense('products');
+                    $prod['name'] = $_POST['title'];
+                    $prod['date'] = date('d/m/Y');
+                    \R::store($prod);
+                    redirect();
+                }
+            } else {
+                $_SESSION['error'] = "Fill the input.";
+            }
 
-            redirect();
         }
 
         $products = \R::findAll('products');
