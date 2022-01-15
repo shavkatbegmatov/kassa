@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php \framework\core\base\View::getMeta(); ?>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
         body {
             height: 100vh;
             margin: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .navbar {
@@ -179,6 +180,20 @@
             padding: 8px 12px;
             cursor: pointer;
         }
+
+        .container {
+            max-width: 1170px;
+            margin: 0px auto;
+            padding: 0px 12px;
+        }
+        .navbar-container {
+
+            max-width: 1170px;
+            margin: 0px auto;
+            padding: 0px 0px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -194,7 +209,7 @@
     ?>
 
     <div class="navbar">
-        <div class="container">
+        <div class="navbar-container">
             <ul class="navbar-list navbar-top">
                 <li class="navbar-logo">Bekzod Group</li>
                 <li class="navbar-acc">

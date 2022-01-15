@@ -1,0 +1,1 @@
+<h1>Хуш келибсиз, <?php echo $_SESSION['user']['name']; ?></h1>

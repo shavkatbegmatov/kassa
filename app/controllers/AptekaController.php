@@ -22,10 +22,20 @@ class AptekaController extends AppController {
         }
     }
 
-    public function checkAction() {
-        if ($this->isAjax()) {
-            echo $_POST['id'];
+    public function addAction() {
+        if ($_POST) {
+            $prod = \R::dispense('products');
+            $prod['name'] = $_POST['title'];
+            $prod['date'] = date('d/m/Y');
+            \R::store($prod);
+
+            redirect();
         }
+
+        $products = \R::findAll('products');
+
+        $this->set(compact('products'));
+
     }
 
 }

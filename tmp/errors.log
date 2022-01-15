@@ -3858,3 +3858,43 @@
 ///////////////////////////
 [2022-01-14 17:49:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
 ///////////////////////////
+[2022-01-15 02:36:33] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 14 
+///////////////////////////
+[2022-01-15 02:38:21] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 20 
+///////////////////////////
+[2022-01-15 02:38:21] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 20 
+///////////////////////////
+[2022-01-15 02:38:22] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 20 
+///////////////////////////
+[2022-01-15 02:46:36] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 20 
+///////////////////////////
+[2022-01-15 02:57:24] Текст ошибки: Plugin 'dispanse' does not exist, add this plugin using: R::ext('dispanse') | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16117 
+///////////////////////////
+[2022-01-15 02:59:50] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Левамикол' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:09:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-15 03:32:23] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fghkfghkfghk' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:32:41] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fghkfghk' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:32:48] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fghkfghk' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:32:51] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fghkfghk' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:32:59] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fghkfgh' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:38:14] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 03:38:20] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'products.name' | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-15 04:23:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-15 05:00:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-15 15:46:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-15 15:47:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-15 16:07:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
