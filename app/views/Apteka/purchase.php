@@ -1,8 +1,6 @@
 <style>
     * { box-sizing: border-box; }
-body {
-  font: 16px Arial;
-}
+
 .autocomplete {
   /*the container must be positioned relative:*/
   position: relative;
@@ -59,7 +57,7 @@ tr:nth-child(even) {
 
 
 
-input, button {
+input, button[type='submit'] {
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2em;

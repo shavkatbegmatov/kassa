@@ -3958,3 +3958,15 @@
 ///////////////////////////
 [2022-01-16 05:05:26] Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'count' at row 1 | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
 ///////////////////////////
+[2022-01-16 05:14:40] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 25 
+///////////////////////////
+[2022-01-16 05:14:52] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 25 
+///////////////////////////
+[2022-01-16 05:15:16] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 25 
+///////////////////////////
+[2022-01-16 05:22:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-16 05:22:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-16 05:23:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
