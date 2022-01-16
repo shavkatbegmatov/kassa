@@ -3902,3 +3902,59 @@
 ///////////////////////////
 [2022-01-15 16:56:27] Текст ошибки: syntax error, unexpected token ")" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 30 
 ///////////////////////////
+[2022-01-15 17:02:16] Текст ошибки: Undefined array key "name" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 28 
+///////////////////////////
+[2022-01-15 17:20:08] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:20:08] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:20:32] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:20:34] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:20:38] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:20:48] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 17:21:48] Текст ошибки: Undefined array key "unique" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 38 
+///////////////////////////
+[2022-01-15 18:08:39] Текст ошибки: Undefined array key "sum" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 58 
+///////////////////////////
+[2022-01-16 01:20:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-16 01:20:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-16 01:30:06] Текст ошибки: Undefined variable $prods | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\purchase.php, | Строка: 69 
+///////////////////////////
+[2022-01-16 01:31:36] Текст ошибки: Undefined variable $prods | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\purchase.php, | Строка: 69 
+///////////////////////////
+[2022-01-16 01:32:35] Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'er' for column 'product_id' at row 1 | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-16 03:51:31] Текст ошибки: Invalid type: storage_actions | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16755 
+///////////////////////////
+[2022-01-16 04:01:32] Текст ошибки: Invalid type: storage_actions | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16755 
+///////////////////////////
+[2022-01-16 04:01:57] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kassa.storageactions' doesn't exist | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-16 04:02:28] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kassa.storage_actions' doesn't exist | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-16 04:02:44] Текст ошибки: compact(): Undefined variable $storageactions | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 73 
+///////////////////////////
+[2022-01-16 04:02:55] Текст ошибки: Undefined variable $storage_actions | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\purchase.php, | Строка: 84 
+///////////////////////////
+[2022-01-16 04:12:49] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kassa.storageactions' doesn't exist | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-16 04:13:01] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kassa.storageactions' doesn't exist | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-16 04:26:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-16 04:31:22] Текст ошибки: Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense') | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16117 
+///////////////////////////
+[2022-01-16 04:32:52] Текст ошибки: Invalid type: storage_actions | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16755 
+///////////////////////////
+[2022-01-16 04:33:02] Текст ошибки: Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense') | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 16117 
+///////////////////////////
+[2022-01-16 04:33:22] Текст ошибки: Class "app\controllers\R" not found | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 55 
+///////////////////////////
+[2022-01-16 05:05:26] Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'count' at row 1 | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////

@@ -17,7 +17,7 @@ tr:nth-child(even) {
 
 
 
-input[name='title'], button[type='submit'] {
+input[name='product_name'], button[type='submit'] {
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2em;
@@ -33,10 +33,20 @@ input[name='title'], button[type='submit'] {
 </style>
 
 <form method="post" action="/apteka/add/">
-    <h1>Добавить новый товар</h1>
+    <h1>Янги маҳсулот қўшиш</h1>
     <div id='add-form'>
-        <input id="title" type="text" name="title" placeholder="Названия товара">
-        <button type="submit">Добавить</button>
+        <?php if (isset($_SESSION['unique'])): ?>
+            <input id="product_name" onkeyup="check()" type="text" name="product_name" value="<?php echo $_SESSION['unique'] ?>" placeholder="Маҳсулот номи">
+        <?php else: ?>
+            <input id="product_name" type="text" name="product_name" placeholder="Маҳсулот номи">
+        <?php endif;?>
+        <?php if (isset($_SESSION['unique'])): ?>
+            <?php unset($_SESSION['error']); ?>
+            <?php unset($_SESSION['unique']); ?>
+            <button id="button" style="color: red;" type="submit">Маҳсулот мавжуд!</button>
+        <?php else: ?>
+            <button id="button" type="submit">Қўшиш</button>
+        <?php endif;?>
     </div>
 </form>
 <br>
@@ -50,7 +60,16 @@ input[name='title'], button[type='submit'] {
     <?php foreach ($products as $product): ?>
         <tr>
             <td><?php echo $product['name'] ?></td>
-            <td><?php echo $product['date'] ?></td>
+            <td><?php echo $product['datetime'] ?></td>
         </tr>
     <?php endforeach;?>
 </table>
+
+<script>
+    let product_name = document.getElementById('product_name');
+    function check() {
+        let doc = document.getElementById('button');
+        doc.style.color = 'black';
+        doc.innerHTML = 'Қўшиш';
+    }
+</script>

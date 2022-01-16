@@ -23,16 +23,20 @@ class AptekaController extends AppController {
     }
 
     public function addAction() {
-        $prods = \R::findAll('products');
-        debug($prods);
         if ($_POST) {
-            if (!empty($_POST['name'])) {
-                if ('5' == '5') {
+            if (!empty($_POST['product_name'])) {
+                $prods = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
+
+                if (!isset($prods)) {
                     $prod = \R::dispense('products');
-                    $prod['name'] = $_POST['title'];
-                    $prod['date'] = date('d/m/Y');
+                    $prod['name'] = $_POST['product_name'];
+                    // $prod['date'] = date('d/m/Y');
                     \R::store($prod);
                     redirect();
+                } else {
+                    $_SESSION['error'] = "It is must be unique";
+                    $_SESSION['unique'] = $_POST['product_name'];
+
                 }
             } else {
                 $_SESSION['error'] = "Fill the input.";
@@ -44,6 +48,29 @@ class AptekaController extends AppController {
 
         $this->set(compact('products'));
 
+    }
+
+    public function purchaseAction() {
+        if ($_POST) {
+            $prod = \R::xdispense('storage_actions');
+            $product = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
+            if ($product) {
+                $prodId = $product['id'];
+            } else {
+                $_SESSION['error'] = 'Бунақа товар йўқ!';
+                redirect();
+            }
+            $prod['product_id'] = $prodId;
+            $prod['count'] = $_POST['count'];
+            $prod['price'] = $_POST['price'];
+
+            // $prod['date'] = date('Y-m-d H:i:s');
+            \R::store($prod);
+            redirect();
+        }
+        $storageActions = \R::findAll('storage_actions');
+
+        $this->set(compact('storageActions'));
     }
 
 }

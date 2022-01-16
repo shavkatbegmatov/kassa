@@ -193,7 +193,12 @@
             padding: 0px 0px;
         }
 
-
+        .message {
+            padding: 12px 24px;
+            border: 1px solid orange;
+            background: yellow;
+            color: #252525;
+        }
     </style>
 </head>
 <body>
@@ -224,7 +229,9 @@
 
     <div class="container">
         <?php if (isset($_SESSION['error'])): ?>
-            <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+            <p class="message">
+                <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+            </p>
         <?php endif; ?>
         <?php echo $content; ?>
     </div>

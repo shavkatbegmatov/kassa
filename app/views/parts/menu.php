@@ -4,7 +4,7 @@
         if ($role === 'apteka') {
             $menus = [
                 ['Добавить товар', '/apteka/add/'],
-                ['Склад', '/'],
+                ['Склад', '/apteka/purchase/'],
                 ['Статистика', '/'],
             ];
         } else if ($role === 'kassa') {
