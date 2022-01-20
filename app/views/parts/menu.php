@@ -3,7 +3,7 @@
         $role = $_SESSION['user']['role'];
         if ($role === 'apteka') {
             $menus = [
-                ['Маҳсулот сотиш', '/apteka/add/'],
+                ['Маҳсулот сотиш', '/apteka/sell/'],
                 ['Янги товар номини қўшиш', '/apteka/add/'],
                 ['Маҳсулот қабул қилиш', '/apteka/purchase/'],
                 ['Статистика', '/'],

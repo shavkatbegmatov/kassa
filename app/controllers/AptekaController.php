@@ -3,22 +3,21 @@
 namespace app\controllers;
 
 class AptekaController extends AppController {
+    
+    // public $controller_name = 'Apteka';
+    // public $user_role = 'apteka';
+
+    // public function __construct() {
+
+    // }
 
     public function indexAction() {
-        if (isset($_SESSION['user'])) {
-            if ($_SESSION['user']['role'] == 'apteka') {
-                if ($_POST) {
-                    $treatmentId = $_POST['treatment'];
-                    $patientId = $_POST['patient'];
-                    $treatment = \R::findOne('treatment', 'id = ? AND patient_id = ?', [$treatmentId, $patientId]);
-                    $treatment['status'] = 'paid';
-                    \R::store($treatment);
-                }
-            } else {
-                redirect('/');
-            }
-        } else {
-            redirect('/');
+        if ($_POST) {
+            $treatmentId = $_POST['treatment'];
+            $patientId = $_POST['patient'];
+            $treatment = \R::findOne('treatment', 'id = ? AND patient_id = ?', [$treatmentId, $patientId]);
+            $treatment['status'] = 'paid';
+            \R::store($treatment);
         }
     }
 
@@ -71,6 +70,12 @@ class AptekaController extends AppController {
         $storageActions = \R::findAll('storage_actions');
 
         $this->set(compact('storageActions'));
+    }
+
+    public function sellAction() {
+        if ($_POST) {
+            
+        }
     }
 
 }

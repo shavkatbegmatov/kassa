@@ -13,5 +13,20 @@ class AppController extends \framework\core\base\Controller {
         new \app\models\Main;
         App::$app->setProperty('langs', Language::getLanguages());
         App::$app->setProperty('lang', Language::getLanguage(App::$app->getProperty('langs')));
+        
+        if ($route['controller'] === 'Apteka') {
+            if (isset($_SESSION['user'])) {
+                if ($_SESSION['user']['role'] === 'apteka') {
+
+                } else {
+                    redirect('/');
+                }
+            } else {
+                redirect('/');
+
+            }
+        }
     }
+
+    // public function chek
 }
