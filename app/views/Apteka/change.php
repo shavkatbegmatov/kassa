@@ -30,6 +30,7 @@ input, button[type='submit'], select {
     flex-wrap: wrap;
 }
 
+
 /*
     Auther: Abdelrhman Said
 */
@@ -120,21 +121,24 @@ input, button[type='submit'], select {
   color: #ffffff;
 }
 
+
 </style>
 
-<form method="post" action="/apteka/add/">
-    <h1>Янги маҳсулот қўшиш</h1>
+<?php $product = \R::findOne('products', 'id = ?', [$_GET['id']]); ?>
+
+<form method="post" action="/apteka/change/?id=<?php echo $product['id'] ?>">
+    <h1>Мавжуд маҳсулотни ўзгартириш</h1>
     <div id='add-form'>
         <?php if (isset($_SESSION['unique'])): ?>
-            <input id="product_name" onkeyup="check()" type="text" name="product_name" value="<?php echo $_SESSION['unique'] ?>" placeholder="Маҳсулот номи">
+            <input id="product_name" onkeyup="check()" type="text" name="product_name" value="<?php echo $product['name'] ?>" placeholder="Маҳсулот номи">
         <?php else: ?>
-            <input id="product_name" type="text" name="product_name" placeholder="Маҳсулот номи">
+            <input id="product_name" type="text" name="product_name" value="<?php echo $product['name'] ?>" placeholder="Маҳсулот номи">
         <?php endif;?>
         <select id="manufacturer" name="manufacturer" onchange="add_manufacturer()">
             <option>Номаълум</option>
             <option value="addnew">Янги ишлаб чиқарувчи номини қўшиш</option>
             <?php foreach ($manufacturers as $manufacturer): ?>
-                <option value="<?php echo $manufacturer['id'] ?>"><?php echo $manufacturer['name'] . " (" . $manufacturer['country'] . ")"; ?></option>
+                <option value="<?php echo $manufacturer['id'] ?>" <?php if ($manufacturer['id'] == $product['manufacturer_id']) echo 'selected'; ?>><?php echo $manufacturer['name'] . " (" . $manufacturer['country'] . ")"; ?></option>
             <?php endforeach; ?>
         </select>
         <?php if (isset($_SESSION['unique'])): ?>
@@ -142,7 +146,7 @@ input, button[type='submit'], select {
             <?php unset($_SESSION['unique']); ?>
             <button id="button" style="color: red;" type="submit">Маҳсулот мавжуд!</button>
         <?php else: ?>
-            <button id="button" type="submit">Қўшиш</button>
+            <button id="button" type="submit">Сақлаш</button>
         <?php endif;?>
     </div>
 </form>
@@ -193,6 +197,7 @@ input, button[type='submit'], select {
         </tr>
     <?php endforeach;?>
 </table>
+
 
 <script>
     let product_name = document.getElementById('product_name');

@@ -29,6 +29,7 @@ class AptekaController extends AppController {
                 if (!isset($prods)) {
                     $prod = \R::dispense('products');
                     $prod['name'] = $_POST['product_name'];
+                    $prod['manufacturer_id'] = $_POST['manufacturer'];
                     // $prod['date'] = date('d/m/Y');
                     \R::store($prod);
                     redirect();
@@ -44,9 +45,66 @@ class AptekaController extends AppController {
         }
 
         $products = \R::findAll('products');
+        $manufacturers = \R::findAll('manufacturers');
+        $this->set(compact('products', 'manufacturers'));
+    }
 
-        $this->set(compact('products'));
 
+    public function changeAction() {
+        if ($_POST) {
+            if (!empty($_POST['product_name'])) {
+                $prods = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
+
+                if (!isset($prods)) {
+                    $prod = \R::load('products', $_GET['id']);
+                    $prod['name'] = $_POST['product_name'];
+                    $prod['manufacturer_id'] = $_POST['manufacturer'];
+                    // $prod['date'] = date('d/m/Y');
+                    \R::store($prod);
+                    redirect();
+                } else {
+                    $_SESSION['error'] = "It is must be unique";
+                    $_SESSION['unique'] = $_POST['product_name'];
+
+                }
+            } else {
+                $_SESSION['error'] = "Fill the input.";
+            }
+
+        }
+
+        $products = \R::findAll('products');
+        $manufacturers = \R::findAll('manufacturers');
+        $this->set(compact('products', 'manufacturers'));
+    }
+
+    
+    public function addManufacturerAction() {
+        if ($_POST) {
+            if (!empty($_POST['company_name'])) {
+                $prods = \R::findOne('products', 'name = ?', [$_POST['company_name']]);
+
+                if (!$prods) {
+                    $prod = \R::dispense('manufacturers');
+                    $prod['name'] = $_POST['company_name'];
+                    $prod['country'] = $_POST['company_country'];
+                    // $prod['date'] = date('d/m/Y');
+                    \R::store($prod);
+                    redirect();
+                } else {
+                    $_SESSION['error'] = "It is must be unique";
+                    $_SESSION['unique'] = $_POST['company_name'];
+
+                }
+            } else {
+                $_SESSION['error'] = "Fill the input.";
+            }
+
+        }
+
+        $products = \R::findAll('products');
+        $manufacturers = \R::findAll('manufacturers');
+        $this->set(compact('products', 'manufacturers'));
     }
 
     public function purchaseAction() {

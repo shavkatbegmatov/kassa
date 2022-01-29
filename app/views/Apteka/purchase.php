@@ -66,7 +66,8 @@ input, button[type='submit'] {
 }
 </style>
 
-<form method="post" action="/apteka/purchase/">
+<form method="post" action="/apteka/purchase/" autocomplete="off">
+  <input autocomplete="false" name="hidden" type="text" style="display:none;">
     <h1>Товар қабул қилиш</h1>
     <div id='add-form'>
         <div class="autocomplete">

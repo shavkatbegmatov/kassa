@@ -4074,3 +4074,91 @@
 ///////////////////////////
 [2022-01-21 00:35:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
 ///////////////////////////
+[2022-01-21 14:58:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-22 00:14:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-22 00:18:24] Текст ошибки: Undefined variable $menus | Файл: C:\OpenServer\domains\kassa.loc\app\views\parts\menu.php, | Строка: 31 
+///////////////////////////
+[2022-01-22 00:21:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-22 00:21:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-22 03:14:24] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-22 22:24:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-23 02:30:13] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-23 21:45:08] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-23 21:49:36] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-23 22:16:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-23 22:17:47] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/Apteka/add-manufacturer.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 64 
+///////////////////////////
+[2022-01-23 22:18:52] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/Apteka/add-manufacturer.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 64 
+///////////////////////////
+[2022-01-25 00:46:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-25 00:50:57] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-25 00:58:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-28 22:54:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-28 23:06:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-28 23:06:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-28 23:10:55] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/Apteka/addManufacturer.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 64 
+///////////////////////////
+[2022-01-28 23:12:33] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/Apteka/addManufacturer.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 64 
+///////////////////////////
+[2022-01-28 23:13:14] Текст ошибки: Не найден вид <b>C:\OpenServer\domains\kassa.loc/app/views/Apteka/addManufacturer.php</b> | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\base\View.php, | Строка: 64 
+///////////////////////////
+[2022-01-28 23:15:20] Текст ошибки: Undefined array key "product_name" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 54 
+///////////////////////////
+[2022-01-28 23:15:34] Текст ошибки: Undefined array key "product_name" | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\AptekaController.php, | Строка: 54 
+///////////////////////////
+[2022-01-28 23:22:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 00:11:47] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'manufacturer_id' doesn't have a default value | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-29 00:16:22] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 74 
+///////////////////////////
+[2022-01-29 00:19:37] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 80 
+///////////////////////////
+[2022-01-29 00:19:39] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 80 
+///////////////////////////
+[2022-01-29 00:19:39] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 80 
+///////////////////////////
+[2022-01-29 00:21:25] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\add.php, | Строка: 79 
+///////////////////////////
+[2022-01-29 00:22:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 00:24:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 00:25:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 00:25:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 03:29:31] Текст ошибки: Undefined array key "id" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\change.php, | Строка: 35 
+///////////////////////////
+[2022-01-29 03:35:03] Текст ошибки: Undefined array key "id" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Apteka\change.php, | Строка: 127 
+///////////////////////////
+[2022-01-29 03:46:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 03:59:26] Текст ошибки: Undefined variable $product | Файл: C:\OpenServer\domains\kassa.loc\app\views\Recorder\index.php, | Строка: 85 
+///////////////////////////
+[2022-01-29 04:06:33] Текст ошибки: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'infl' at row 1 | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 838 
+///////////////////////////
+[2022-01-29 13:54:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 13:54:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 15:22:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-01-29 15:22:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
