@@ -124,7 +124,7 @@ tr:nth-child(even) {
         <form action="/recorder/" method="post">
             <div class="card-body">
                 <div class="form-group">
-                    <label for="">Имя</label>
+                    <label for="">Исм</label>
                     <input type="text" name="first_name" class="form-control" id="">
                 </div>
                 <div class="form-group">
@@ -132,11 +132,11 @@ tr:nth-child(even) {
                     <input type="text" name="last_name" class="form-control" id="">
                 </div>
                 <div class="form-group">
-                    <label for="">Имя Отца</label>
+                    <label for="">Отасини исми</label>
                     <input type="text" name="middle_name" class="form-control" id="">
                 </div>
                 <div class="form-group">
-                    <label for="datepicker">Дата Рождения</label>
+                    <label for="datepicker">Туғилган йили</label>
                     <input type="text" name="birth_date" class="form-control" id="datepicker">
                 </div>
                 <div class="form-group">
@@ -144,7 +144,7 @@ tr:nth-child(even) {
                     <input type="text" name="address" class="form-control" id="">
                 </div>
                 <div class="form-group">
-                    <label for="">ИНФЛ</label>
+                    <label for="">ИНПС</label>
                     <input type="number" name="infl" class="form-control" id="">
                 </div>
                 <div class="form-group">
@@ -180,6 +180,9 @@ tr:nth-child(even) {
             <td><?php echo $patient['birth_date'] ?></td>
             <td><?php echo $patient['passport'] ?></td>
             <td>
+
+<a class="list-group-item list-group-item-action" href=""><?php echo $patient['first_name']; ?> <?php echo $patient['last_name']; ?> <?php echo $patient['middle_name']; ?></span></a>
+            
                 
 <div class="wrapper">
     <a href="/apteka/change/?id=<?php //echo $product['id'] ?>">

@@ -18,6 +18,19 @@
     </div>
 <?php endif; ?>
 
+
+
+
+<video width="1120px" height="600px" autoplay muted>
+  <source src="videos/med.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+
+
+
+
+
 <script>
     $(function() {
         $('#send').click(function() {

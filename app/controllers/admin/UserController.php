@@ -10,6 +10,9 @@ class UserController extends AppController {
     public function showAction() {
         $alias = $this->route['alias'];
         $user = \R::findOne('user', 'id = ?', [$alias]);
+        if (!$user) {
+            throw new \Exception("Фойдаланувчи мавжуд эмас!", 404);
+        }
         $undo_url = $this->undo_url;
         $this->set(compact('user', 'undo_url'));
         View::setMeta('Dash - Главная страница', 'Desc', 'Keys');

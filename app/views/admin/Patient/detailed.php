@@ -1,8 +1,19 @@
 <div class="row">
     <div class="col-md-12">
         <div class="panel panel-default">
-            <div class="panel-heading"><a href="<?php echo $_SESSION['undo_url']; ?>" class=""><i class="fas fa-caret-left"></i>Back</a></div>
-            <?php debug($_SESSION['undo_url']); ?>
+            <div class="panel-heading"><a href="
+                <?php 
+                    if (isset($_SESSION['undo_url'])) {
+                        echo $_SESSION['undo_url']; 
+                    }
+                ?>" class=""><i class="fas fa-caret-left"></i>Back</a></div>
+            <?php 
+                if (isset($_SESSION['undo_url'])) {
+                    echo "<br>----------------<br>";
+                    debug($_SESSION['undo_url']);
+                    echo "<br>----------------<br>";
+                } 
+            ?>
         </div>
     </div>
 </div>
