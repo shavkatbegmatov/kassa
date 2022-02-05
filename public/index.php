@@ -4,7 +4,7 @@ use framework\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
-define('DEBUG', 1);
+define('DEBUG', 0);
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/framework/core');
 define('ROOT', dirname(__DIR__));
@@ -44,7 +44,7 @@ Router::add('^admin/patients/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['con
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
-
+debug("Salom");
 
 Router::dispatch($query);
 

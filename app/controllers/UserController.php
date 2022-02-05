@@ -42,6 +42,8 @@ class UserController extends AppController {
     }
 
     public function logAction() {
+        echo "777";
+        debug($_POST);
         if (!empty($_POST)) {
             $user = new User();
             if ($user->login()) {

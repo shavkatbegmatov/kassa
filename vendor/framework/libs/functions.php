@@ -1,7 +1,19 @@
 <?php
 
 function debug($arr, $die = false) {
-    echo '<pre>' . print_r($arr, true) . '</pre>';
+
+    $debug_text =   '<pre>' . 
+                    date("Y.m.d") . " " . 
+                    date("H:i:s") . "\t" . 
+                    print_r($arr, true) . 
+                    '</pre>';
+
+    echo $debug_text;
+
+    $fp = fopen('data.html', 'a'); //opens file in append mode
+    fwrite($fp, $debug_text);
+    fclose($fp);
+
 
     if ($die) die();
 }
@@ -27,4 +39,3 @@ function __($key, $echo = true) {
         echo \framework\core\base\Lang::get($key);
     }
 }
-
