@@ -4,14 +4,15 @@ use framework\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
-define('DEBUG', 0);
+define('DEBUG', 1);
+define('LOG', 1);
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/framework/core');
 define('ROOT', dirname(__DIR__));
 define('LIBS', dirname(__DIR__) . '/vendor/framework/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
-define('LAYOUT', 'def');
+define('LAYOUT', 'def2');
 define('ADMIN', 'http://kassa.loc/admin');
 
 require '../vendor/framework/libs/functions.php';
@@ -43,8 +44,6 @@ Router::add('^admin/patients/(?P<action>[a-z-]+)/(?P<alias>[a-z-0-9-]+)$', ['con
 
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
-
-debug("Salom");
 
 Router::dispatch($query);
 

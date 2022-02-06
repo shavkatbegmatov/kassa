@@ -38,6 +38,14 @@ class UserController extends AppController {
         redirect();
     }
 
+    public function changeRoleAction() {
+        $alias = $this->route['alias'];
+        $user = \R::findOne('user', 'id = ?', [$alias]);
+        $user['role'] = $_GET['role'];
+        \R::store($user);
+        redirect();
+    }
+
     public function loginAction() {
         if (!empty($_POST)) {
             $user = new User();

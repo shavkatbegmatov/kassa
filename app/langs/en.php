@@ -18,4 +18,7 @@ return [
     'acc' => 'Account',
     'logout' => 'Log Out',
     'cabinet' => 'Profile',
+    'users' => 'Users',
+    'patients' => 'Patients',
+    'blog' => 'Post',
 ];

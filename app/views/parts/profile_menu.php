@@ -17,7 +17,7 @@
         <form method="post" action="/user/log" class="form noclose">
             <div><i class="fas fa-user noclose"></i><input type="text" class="input noclose" name="login" placeholder="Enter Login"></div>
             <div><i class="fas fa-key noclose"></i><input type="password" class="input noclose" name="password" placeholder="Enter Password"></div>
-            <button class="button noclose" type="submit">Submit</button>
+            <button onclick="alert('123');" class="button noclose" type="submit">Submit2</button>
         </form>
     </div>
 <?php endif;?>

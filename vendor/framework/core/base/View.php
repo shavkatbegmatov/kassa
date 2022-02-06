@@ -45,7 +45,8 @@ class View {
             "><",
         ];
 
-        return preg_replace($search, $replace, $buffer);
+        // return preg_replace($search, $replace, $buffer);
+        return $buffer;
     }
 
     public function render($vars) {

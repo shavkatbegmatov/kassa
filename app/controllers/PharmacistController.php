@@ -2,17 +2,10 @@
 
 namespace app\controllers;
 
-class AptekaController extends AppController {
+class PharmacistController extends AppController {
     
-    // public $controller_name = 'Apteka';
-    // public $user_role = 'apteka';
-
-    // public function __construct() {
-
-    // }
-
     public function indexAction() {
-        if ($_POST) {
+        if (!empty($_POST)) {
             $treatmentId = $_POST['treatment'];
             $patientId = $_POST['patient'];
             $treatment = \R::findOne('treatment', 'id = ? AND patient_id = ?', [$treatmentId, $patientId]);
@@ -22,7 +15,7 @@ class AptekaController extends AppController {
     }
 
     public function addAction() {
-        if ($_POST) {
+        if (!empty($_POST)) {
             if (!empty($_POST['product_name'])) {
                 $prods = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
 
@@ -51,7 +44,7 @@ class AptekaController extends AppController {
 
 
     public function changeAction() {
-        if ($_POST) {
+        if (!empty($_POST)) {
             if (!empty($_POST['product_name'])) {
                 $prods = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
 
@@ -80,7 +73,7 @@ class AptekaController extends AppController {
 
     
     public function addManufacturerAction() {
-        if ($_POST) {
+        if (!empty($_POST)) {
             if (!empty($_POST['company_name'])) {
                 $prods = \R::findOne('products', 'name = ?', [$_POST['company_name']]);
 
@@ -108,7 +101,7 @@ class AptekaController extends AppController {
     }
 
     public function purchaseAction() {
-        if ($_POST) {
+        if (!empty($_POST)) {
             $prod = \R::xdispense('storage_actions');
             $product = \R::findOne('products', 'name = ?', [$_POST['product_name']]);
             if ($product) {
@@ -131,9 +124,27 @@ class AptekaController extends AppController {
     }
 
     public function sellAction() {
-        if ($_POST) {
-            
+        if (!empty($_POST)) {
+            $product = \R::xdispense('storage_actions');
+            $prodId = \R::findOne('products', 'name = ?', [$_POST['product_name']])['id'];
+            $product['count'] = (0 - abs($_POST['count']));
+            $product['product_id'] = $prodId;
+            $product['price'] = $_POST['price'];
+
+            \R::store($product);
         }
+    }
+
+    public function getCountAction() {
+        $this->layout = 'none';
+        if (!empty($_POST)) {
+            $prodId = \R::findOne('products', 'name = ?', [$_POST['name']])['id'];
+            $count = \R::getRow("SELECT SUM(count) FROM storage_actions WHERE id = :id", [':id' => $prodId]);
+        } else {
+            $count = 'Не найдет POST';
+        }
+
+        $this->set(compact('count'));
     }
 
 }

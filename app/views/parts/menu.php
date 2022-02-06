@@ -1,11 +1,11 @@
 <?php
     if (isset($_SESSION['user'])) {
         $role = $_SESSION['user']['role'];
-        if ($role === 'apteka') {
+        if ($role === 'pharmacist') {
             $menus = [
-                ['Маҳсулот сотиш', '/apteka/sell/'],
-                ['Янги товар номини қўшиш', '/apteka/add/'],
-                ['Маҳсулот қабул қилиш', '/apteka/purchase/'],
+                ['Маҳсулот сотиш', '/pharmacist/sell/'],
+                ['Янги товар номини қўшиш', '/pharmacist/add/'],
+                ['Маҳсулот қабул қилиш', '/pharmacist/purchase/'],
                 ['Статистика', '/'],
             ];
         } else if ($role === 'kassa') {
@@ -13,11 +13,22 @@
                 ['Бош саҳифа', '/'],
             ];
         } else if ($role === 'admin') {
-            $menus = [
-                ['Бош саҳифа', '/'],
-                ['Бош саҳифа', '/'],
-                ['Бош саҳифа', '/'],
-            ];
+            if (isset($this->route['prefix'])) {
+                $menus = [
+                    [__('users', false), '/admin/users/'],
+                    [__('patients', false), '/admin/patient/'],
+                    [__('blog', false), '/admin/blog/create'],
+                    [__('catalog', false), '/admin/catalog/create'],
+                ];
+            } else {
+                $menus = [
+                    ['Бош саҳифа', '/'],
+                    ['Бош саҳифа', '/'],
+                    ['Бош саҳифа', '/'],
+                ];
+            }
+
+            
         } else if ($role === 'recorder') {
             $menus = [
                 ['Беморни киритиш', '/'],

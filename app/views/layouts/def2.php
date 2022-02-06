@@ -214,19 +214,10 @@
         }
     ?>
 <div class="">
-    <div class="navbar">
-        <div class="navbar-container">
-            <ul class="navbar-list navbar-top">
-                <li class="navbar-logo">Bekzod Group</li>
-                <li class="navbar-acc">
-                    <?php framework\core\base\View::getPart('parts/profile_menu'); ?>
-                </li>
-            </ul>
-            <ul class="navbar-list">
-                <?php framework\core\base\View::getPart('parts/menu'); ?>
-            </ul>
-        </div>
-    </div>
+
+
+
+    <?php framework\core\base\View::getPart('parts/navbar'); ?>
 
     <div class="container">
         <?php if (isset($_SESSION['error'])): ?>

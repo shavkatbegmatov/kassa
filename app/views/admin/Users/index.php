@@ -79,13 +79,13 @@ input:checked + .slider:before {
                     <td><a href="/admin/user/show/<?php echo $user['id'] ?>"><?php echo $user['name'] ?></a></td>
                     <td>
                         <?php if ($user['role'] != 'admin'): ?>
-                            <select name="role">
+                            <select data-user="<?php echo $user['id'] ?>" class="myselect" name="role">
                                 <?php foreach ($roles as $role): ?>
-                                    <?php if ($role['type'] == $user['role']): ?>
-                                        <option value="<?php echo $role['type'] ?>" selected style="background: black; color: white;"><?php echo $role['name'] ?></option>
-                                    <?php else: ?>
-                                        <option value="<?php echo $role['type'] ?>" style="background: black; color: white;"><?php echo $role['name'] ?></option>
-                                    <?php endif; ?>
+                                    <option 
+                                        value="<?php echo $role['type'] ?>" 
+                                        <?php if ($role['type'] == $user['role']) echo 'selected'; ?> 
+                                        style="background: black; color: white;"><?php echo $role['name'] ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                         <?php else: ?>
@@ -93,17 +93,10 @@ input:checked + .slider:before {
                         <?php endif; ?>
                     </td>
                     <td>
-                        <?php if ($user['status'] == 1): ?>
-                            <label class="switch">
-                                <input type="checkbox" id="<?php echo $user['id'] ?>" checked>
-                                <span class="slider"></span>
-                            </label>
-                        <?php else: ?>
-                            <label class="switch">
-                                <input type="checkbox" id="<?php echo $user['id'] ?>">
-                                <span class="slider"></span>
-                            </label>
-                        <?php endif; ?>
+                        <label class="switch">
+                            <input class="mycheck" type="checkbox" id="<?php echo $user['id'] ?>" <?php if ($user['status'] == 1) echo "checked"?>>
+                            <span class="slider"></span>
+                        </label>
                     </td>
                     <td>
                         <?php if ($user['role'] != 'admin'): ?>
@@ -125,15 +118,25 @@ input:checked + .slider:before {
 <script>
     function ask(url) {
         let res = confirm('Вы действительно хотите удалить пользователя');
-
         if (res) {
             window.location = url;
         }
     }
 
-    $('input[type=checkbox]').change(function() {
-
-        window.location = '/admin/user/update/' + $(this).attr('id') + '?checked=' + $(this).prop('checked');
-
+    const elems = document.querySelectorAll('.mycheck');
+    elems.forEach(elem => {
+        elem.addEventListener('change', updateStatus);
+        function updateStatus(e) {  
+            window.location = '/admin/user/update/' + this.getAttribute('id') + '?checked=' + this.checked;
+        };
     });
+
+    const el_selects = document.querySelectorAll('.myselect');
+    el_selects.forEach(el_select => {
+        el_select.addEventListener('change', changeRole);
+        function changeRole(e) {  
+            window.location = '/admin/user/change-role/' + this.dataset.user + '?role=' + this.options[this.selectedIndex].value;
+        };
+    });
+
 </script>

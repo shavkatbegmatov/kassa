@@ -9,8 +9,7 @@ class UserController extends AppController {
     public $layout = 'login';
 
     public function indexAction() {
-        $this->layout = 'def';
-
+       
         if (!isset($_SESSION['user'])) {
             redirect('/user/log');
         }
@@ -42,8 +41,6 @@ class UserController extends AppController {
     }
 
     public function logAction() {
-        echo "777";
-        debug($_POST);
         if (!empty($_POST)) {
             $user = new User();
             if ($user->login()) {

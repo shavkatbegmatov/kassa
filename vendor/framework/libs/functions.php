@@ -2,6 +2,8 @@
 
 function debug($arr, $die = false) {
 
+
+
     $debug_text =   '<pre>' . 
                     date("Y.m.d") . " " . 
                     date("H:i:s") . "\t" . 
