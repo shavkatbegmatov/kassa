@@ -122,7 +122,7 @@ input, button[type='submit'], select {
 
 </style>
 
-<form method="post" action="/pharmacist/add/">
+<form method="post" action="<?php echo SUB ?>/pharmacist/add/">
     <h1>Янги маҳсулот қўшиш</h1>
     <div id='add-form'>
         <?php if (isset($_SESSION['unique'])): ?>
@@ -174,7 +174,7 @@ input, button[type='submit'], select {
             <td>
                 
 <div class="wrapper">
-    <a href="/pharmacist/change/?id=<?php echo $product['id'] ?>">
+    <a href="<?php echo SUB ?>/pharmacist/change/?id=<?php echo $product['id'] ?>">
     <div class="icon github">
         <div class="tooltip">Ўзгартириш</div>
         <span><i class="fas fa-pen"></i></span>
@@ -204,7 +204,7 @@ input, button[type='submit'], select {
     let manufacturer = document.getElementById('manufacturer');   
     function add_manufacturer() {
         if (manufacturer.value === 'addnew') {
-            window.location = '/pharmacist/add-manufacturer';
+            window.location = '<?php echo SUB ?>/pharmacist/add-manufacturer';
         }
     }
 </script>

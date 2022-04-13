@@ -4,7 +4,7 @@
     </div>
     <!-- /.card-header -->
     <!-- form start -->
-    <form action="/admin/catalog/create" method="post">
+    <form action="<?php echo SUB ?>/admin/catalog/create" method="post">
         <div class="card-body">
             <div class="form-group">
                 <label for="title">Название каталога</label>

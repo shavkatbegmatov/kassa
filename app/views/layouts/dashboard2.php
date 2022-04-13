@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <?php \framework\core\base\View::getMeta(); ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="<?php echo SUB ?>/public/css/style.css">
     <style>
         * {
             outline: none !important;
@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/">Dashboard</a>
+            <a class="navbar-brand" href="<?php echo SUB ?>/">Dashboard</a>
         </div>
         <div class="collapse navbar-collapse js-navbar-collapse">
             <ul class="nav navbar-nav">

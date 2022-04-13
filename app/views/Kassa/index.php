@@ -4,7 +4,7 @@
         $treatments = \R::findAll('treatment', 'status = ?', ['unpaid']);
     ?>
     <div class="panel-body">
-        <form action="/kassa/" method="post">
+        <form action="<?php echo SUB ?>/kassa/" method="post">
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-8">
@@ -55,7 +55,7 @@
         $('#check').click(function() {
             alert(checkInput + 'asdasd');
             $.ajax({
-                url: '/kassa/check',
+                url: '<?php echo SUB ?>/kassa/check',
                 type: 'post',
                 data: {'id': checkInput.value},
                 success: function(res) {

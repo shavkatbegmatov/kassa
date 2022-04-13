@@ -32,11 +32,11 @@ input, button[type='submit'] {
 }
 </style>
 
-<form method="post" action="/pharmacist/add-manufacturer/">
+<form method="post" action="<?php echo SUB ?>/pharmacist/add-manufacturer/">
     <h1>Дори ишлаб чиқарувчи компания номини қўшиш</h1>
     <div id='add-form'>
         <input id="company_name" onkeyup="check()" type="text" name="company_name" value="<?php  if (isset($_SESSION['unique'])) echo $_SESSION['unique']; ?>" placeholder="Компания номи">
-        <input id="company_name" onkeyup="check()" type="text" name="company_country" value="<?php  if (isset($_SESSION['unique'])) echo $_SESSION['unique']; ?>" placeholder="Компания жойлашкан давлат">
+        <input id="company_name" onkeyup="check()" type="text" name="company_country" value="<?php  if (isset($_SESSION['unique'])) echo $_SESSION['unique']; ?>" placeholder="Компания жойлашган давлат">
         <?php if (isset($_SESSION['unique'])): ?>
             <?php unset($_SESSION['error']); ?>
             <?php unset($_SESSION['unique']); ?>

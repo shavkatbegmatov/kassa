@@ -19,10 +19,23 @@ class AppController extends \framework\core\base\Controller {
                 if ($_SESSION['user']['role'] === 'pharmacist') {
 
                 } else {
-                    redirect('/');
+                    redirect(SUB . '/');
                 }
             } else {
-                redirect('/');
+                redirect(SUB . '/');
+
+            }
+        }
+
+        if ($route['controller'] === 'Manager') {
+            if (isset($_SESSION['user'])) {
+                if ($_SESSION['user']['role'] === 'manager') {
+
+                } else {
+                    redirect(SUB . '/');
+                }
+            } else {
+                redirect(SUB . '/');
 
             }
         }

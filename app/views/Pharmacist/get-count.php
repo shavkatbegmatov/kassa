@@ -1,1 +1,1 @@
-<?php echo $count['SUM(count)']; ?>
+<?php echo $count; ?>

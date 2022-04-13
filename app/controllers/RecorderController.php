@@ -20,10 +20,10 @@ class RecorderController extends AppController {
                     \R::store($patient);
                 }
             } else {
-                redirect('/');
+                redirect(SUB . '/');
             }
         } else {
-            redirect('/');
+            redirect(SUB . '/');
         }
     }
 

@@ -137,14 +137,15 @@ class PharmacistController extends AppController {
 
     public function getCountAction() {
         $this->layout = 'none';
+        
         if (!empty($_POST)) {
             $prodId = \R::findOne('products', 'name = ?', [$_POST['name']])['id'];
-            $count = \R::getRow("SELECT SUM(count) FROM storage_actions WHERE id = :id", [':id' => $prodId]);
+            $count = \R::getAll("SELECT SUM(count) FROM storage_actions WHERE product_id = :id", [':id' => $prodId]);
+            $count = $count[0]['SUM(count)'];
+            $this->set(compact('count'));
         } else {
             $count = 'Не найдет POST';
         }
-
-        $this->set(compact('count'));
     }
 
 }

@@ -4,7 +4,7 @@
     </div>
     <!-- /.card-header -->
     <!-- form start -->
-    <form action="/admin/blog/create" method="post">
+    <form action="<?php echo SUB ?>/admin/blog/create" method="post">
         <div class="card-body">
             <div class="form-group">
                 <label for="title">Название поста</label>

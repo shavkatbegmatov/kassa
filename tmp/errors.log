@@ -6972,3 +6972,83 @@
 ///////////////////////////
 [2022-02-06 12:38:46] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\PharmacistController.php, | Строка: 141 
 ///////////////////////////
+[2022-02-06 16:16:34] Текст ошибки: Undefined array key "SUM(count)" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Pharmacist\get-count.php, | Строка: 1 
+///////////////////////////
+[2022-02-06 16:16:59] Текст ошибки: Undefined array key "SUM(count)" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Pharmacist\get-count.php, | Строка: 1 
+///////////////////////////
+[2022-02-06 16:18:23] Текст ошибки: Undefined array key "SUM(count)" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Pharmacist\get-count.php, | Строка: 1 
+///////////////////////////
+[2022-02-06 16:19:15] Текст ошибки: Undefined array key "SUM(count)" | Файл: C:\OpenServer\domains\kassa.loc\app\views\Pharmacist\get-count.php, | Строка: 1 
+///////////////////////////
+[2022-02-06 16:22:38] Текст ошибки: abs(): Argument #1 ($num) must be of type int|float, string given | Файл: C:\OpenServer\domains\kassa.loc\app\controllers\PharmacistController.php, | Строка: 130 
+///////////////////////////
+[2022-02-07 11:33:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-07 11:40:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-07 11:46:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-07 14:13:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-08 04:05:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-08 11:32:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-09 05:54:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-11 11:36:32] Текст ошибки: Could not connect to database (kassa). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-02-11 11:36:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-13 01:37:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-24 16:48:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-24 17:40:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-24 21:36:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-24 21:50:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-02-25 18:30:17] Текст ошибки: Undefined variable: menus | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/parts/menu.php, | Строка: 48 
+///////////////////////////
+[2022-02-28 19:41:39] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 9 
+///////////////////////////
+[2022-02-28 19:41:49] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 9 
+///////////////////////////
+[2022-02-28 19:41:50] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 9 
+///////////////////////////
+[2022-02-28 19:41:50] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 9 
+///////////////////////////
+[2022-02-28 19:42:19] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-03 10:12:56] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-03 10:18:38] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-03 10:18:45] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-03 10:18:53] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-03 10:19:03] Текст ошибки: Undefined variable: prods | Файл: /home/interactive/web/code.tsue.uz/public_html/kassa/app/views/Manager/price.php, | Строка: 78 
+///////////////////////////
+[2022-03-12 23:20:18] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-03-13 03:36:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-03-13 06:37:11] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-03-13 06:45:19] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-04-01 09:10:28] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-04-01 09:10:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////
+[2022-04-01 09:10:34] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-04-01 15:47:08] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-04-01 15:47:08] Текст ошибки: Could not connect to database (interactive_ks). | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\libs\rb.php, | Строка: 1105 
+///////////////////////////
+[2022-04-01 15:47:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\kassa.loc\vendor\framework\core\Router.php, | Строка: 63 
+///////////////////////////

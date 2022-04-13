@@ -67,7 +67,7 @@ input, button[type='submit'] {
 
 </style>
 
-<form method="post" action="/pharmacist/sell/" autocomplete="off">
+<form method="post" action="<?php echo SUB ?>/pharmacist/sell/" autocomplete="off">
     <input autocomplete="false" name="hidden" type="text" style="display:none;">
     <h1>Маҳсулот сотиш</h1>
     <div id='add-form'>
@@ -77,7 +77,7 @@ input, button[type='submit'] {
         Сони: <label id="product_count"></label>
         <input type="text" name="count" placeholder="Маҳсулот сони">
         <input type="text" name="price" placeholder="Маҳсулот нархи">
-        <div onclick="ajax()">Топиш</button>
+        <div>Топиш</button>
         <button id="button" type="submit">Қўшиш</button>
     </div>
 </form>
@@ -92,20 +92,48 @@ input, button[type='submit'] {
     ];
 </script>
 
-<script src="/js/autocomplate.js"></script>
+<script src="<?php echo SUB ?>/public/js/autocomplate.js"></script>
 
 <script>
     autocomplete(document.getElementById("myInput"), items);
+
+
+
     
-    function ajax() {
+  const elems = document.querySelectorAll('.my-autocomplete-list');
+
+    function ajax(e) {
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function() {
             document.getElementById("product_count").innerHTML =
             this.responseText;
         }
-        let vars = "name=" + document.getElementById("myInput").value;
-        xhttp.open("POST", "/pharmacist/get-count/", true);
+        let vars = "name=" + e.target.getAttribute('data-text');
+        xhttp.open("POST", "<?php echo SUB ?>/pharmacist/get-count/", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send(vars);
+
+    // elems.forEach(elem => {
+    //     elem.addEventListener('click', productFind);
+    //     function productFind(e) {
+    //       alert('5555');
+    //         const xhttp = new XMLHttpRequest();
+    //         xhttp.onload = function() {
+    //             document.getElementById("product_count").innerHTML =
+    //             this.responseText;
+    //         }
+    //         let vars = "name=" + this.innerText;
+    //         xhttp.open("POST", "/pharmacist/get-count/", true);
+    //         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    //         xhttp.send(vars);
+    //     };
+    // });
+
     }
+
+
+
+
+
+
 </script>

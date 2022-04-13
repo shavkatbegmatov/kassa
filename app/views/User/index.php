@@ -6,7 +6,7 @@
                 <div style="font-size: 3rem; font-weight: bold"><?php echo $_SESSION['user']['name']; ?></div>
                 <div><?php echo $_SESSION['user']['email']; ?></div>
                 <br>
-                <a href="/<?php echo $_SESSION['user']['role']; ?>" class="btn btn-primary">В кабинет</a>
+                <a href="<?php echo SUB ?>/<?php echo $_SESSION['user']['role']; ?>" class="btn btn-primary">В кабинет</a>
             </div>
         </div>
     </div>

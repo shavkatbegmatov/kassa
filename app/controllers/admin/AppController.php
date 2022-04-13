@@ -9,7 +9,7 @@ use framework\core\App;
 use framework\widgets\language\Language;
 
 class AppController extends Controller {
-    public $layout = 'dashboard';
+    public $layout = DASHBOARD_LAYOUT;
 
     public function __construct($route) {
         parent::__construct($route);

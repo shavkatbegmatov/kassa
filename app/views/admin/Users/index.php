@@ -76,7 +76,7 @@ input:checked + .slider:before {
             <?php foreach ($users as $user): ?>
                 <tr>
                     <td><?php echo $user['id'] ?></td>
-                    <td><a href="/admin/user/show/<?php echo $user['id'] ?>"><?php echo $user['name'] ?></a></td>
+                    <td><a href="<?php echo SUB ?>/admin/user/show/<?php echo $user['id'] ?>"><?php echo $user['name'] ?></a></td>
                     <td>
                         <?php if ($user['role'] != 'admin'): ?>
                             <select data-user="<?php echo $user['id'] ?>" class="myselect" name="role">
@@ -127,7 +127,7 @@ input:checked + .slider:before {
     elems.forEach(elem => {
         elem.addEventListener('change', updateStatus);
         function updateStatus(e) {  
-            window.location = '/admin/user/update/' + this.getAttribute('id') + '?checked=' + this.checked;
+            window.location = '<?php echo SUB ?>/admin/user/update/' + this.getAttribute('id') + '?checked=' + this.checked;
         };
     });
 
@@ -135,7 +135,7 @@ input:checked + .slider:before {
     el_selects.forEach(el_select => {
         el_select.addEventListener('change', changeRole);
         function changeRole(e) {  
-            window.location = '/admin/user/change-role/' + this.dataset.user + '?role=' + this.options[this.selectedIndex].value;
+            window.location = '<?php echo SUB ?>/admin/user/change-role/' + this.dataset.user + '?role=' + this.options[this.selectedIndex].value;
         };
     });
 

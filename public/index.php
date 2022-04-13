@@ -13,7 +13,11 @@ define('LIBS', dirname(__DIR__) . '/vendor/framework/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'def2');
-define('ADMIN', 'http://kassa.loc/admin');
+define('DASHBOARD_LAYOUT', 'dashboard2');
+define('ADMIN', 'http://code.tsue.uz/kassa/admin');
+define('SUB', '/kassa');
+
+
 
 require '../vendor/framework/libs/functions.php';
 require __DIR__ . '/../vendor/autoload.php';

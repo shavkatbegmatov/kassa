@@ -15,10 +15,10 @@ class KassaController extends AppController {
                     \R::store($treatment);
                 }
             } else {
-                redirect('/');
+                redirect(SUB . '/');
             }
         } else {
-            redirect('/');
+            redirect(SUB . '/');
         }
     }
 

@@ -11,7 +11,7 @@ class UserController extends AppController {
     public function indexAction() {
        
         if (!isset($_SESSION['user'])) {
-            redirect('/user/log');
+            redirect(SUB . '/user/log');
         }
 
         View::setMeta('Профиль');
@@ -31,7 +31,7 @@ class UserController extends AppController {
 
             if ($user->save('user')) {
                 $_SESSION['success'] = 'Успешно зарегистрирован';
-                redirect('/user/log');
+                redirect(SUB . '/user/log');
             } else {
                 $_SESSION['error'] = 'Ошибка! попробуйте позже';
             }
@@ -49,7 +49,7 @@ class UserController extends AppController {
                 $_SESSION['error'] = 'Ник/пароль введены неверно!';
                 redirect();
             }
-            redirect('/' . $_SESSION['user']['role']);
+            redirect(SUB . '/' . $_SESSION['user']['role']);
         }
 
         View::setMeta('Авторизация');
@@ -57,6 +57,6 @@ class UserController extends AppController {
 
     public function logoutAction() {
         if (isset($_SESSION['user'])) unset($_SESSION['user']);
-        redirect('/');
+        redirect(SUB . '/');
     }
 }

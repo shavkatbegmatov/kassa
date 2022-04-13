@@ -121,7 +121,7 @@ tr:nth-child(even) {
 <div class="panel panel-default">
     <h1 class="panel-heading">Регистратор</h1>
     <div class="panel-body">
-        <form action="/recorder/" method="post">
+        <form action="<?php echo SUB ?>/recorder/" method="post">
             <div class="card-body">
                 <div class="form-group">
                     <label for="">Исм</label>
@@ -176,30 +176,27 @@ tr:nth-child(even) {
     <?php foreach ($patients as $patient): ?>
         <tr>
             <td><?php echo $patient['id'] ?></td>
-            <td><?php echo $patient['last_name']; ?> <?php echo $patient['first_name']; ?>  <?php echo $patient['middle_name']; ?></td>
+            <td>
+              <?php echo $patient['last_name']; ?> <?php echo $patient['first_name']; ?>  <?php echo $patient['middle_name']; ?>
+              <a class="list-group-item list-group-item-action" href=""><?php echo $patient['first_name']; ?> <?php echo $patient['last_name']; ?> <?php echo $patient['middle_name']; ?></span></a>
+            </td>
             <td><?php echo $patient['birth_date'] ?></td>
             <td><?php echo $patient['passport'] ?></td>
             <td>
-
-<a class="list-group-item list-group-item-action" href=""><?php echo $patient['first_name']; ?> <?php echo $patient['last_name']; ?> <?php echo $patient['middle_name']; ?></span></a>
-            
-                
-<div class="wrapper">
-    <a href="/apteka/change/?id=<?php //echo $product['id'] ?>">
-    <div class="icon github">
-        <div class="tooltip">Ўзгартириш</div>
-        <span><i class="fas fa-pen"></i></span>
-    </div>
-    </a>
-    <a href="">
-  <div class="icon youtube">
-    <div class="tooltip">Ўчириш</div>
-    <span><i class="fas fa-trash"></i></span>
-  </div>
-  </a>
-</div>
-
-
+              <div class="wrapper">
+                  <a href="<?php echo SUB ?>/apteka/change/?id=<?php //echo $product['id'] ?>">
+                  <div class="icon github">
+                      <div class="tooltip">Ўзгартириш</div>
+                      <span><i class="fas fa-pen"></i></span>
+                  </div>
+                  </a>
+                  <a href="">
+                <div class="icon youtube">
+                  <div class="tooltip">Ўчириш</div>
+                  <span><i class="fas fa-trash"></i></span>
+                </div>
+                </a>
+              </div>
             </td>
         </tr>
     <?php endforeach;?>

@@ -15,7 +15,7 @@
             <?php foreach ($patients as $patient): ?>
                 <tr>
                     <td><?php echo $patient['id'] ?></td>
-                    <td><a href="/admin/patients/detailed/<?php echo $patient['id'] ?>"><?php echo $patient['last_name'] . " " . $patient['first_name'] . " " . $patient['middle_name'] ?></a></td>
+                    <td><a href="<?php echo SUB ?>/admin/patients/detailed/<?php echo $patient['id'] ?>"><?php echo $patient['last_name'] . " " . $patient['first_name'] . " " . $patient['middle_name'] ?></a></td>
                     <td><?php echo $patient['address'] ?></td>
                     <td><?php echo $patient['infl'] ?></td>
                     <td><?php echo $patient['passport'] ?></td>

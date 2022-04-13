@@ -66,7 +66,7 @@ input, button[type='submit'] {
 }
 </style>
 
-<form method="post" action="/pharmacist/purchase/" autocomplete="off">
+<form method="post" action="<?php echo SUB ?>/pharmacist/purchase/" autocomplete="off">
   <input autocomplete="false" name="hidden" type="text" style="display:none;">
     <h1>Товар қабул қилиш</h1>
     <div id='add-form'>
@@ -116,7 +116,7 @@ input, button[type='submit'] {
     ];
 </script>
 
-<script src="/js/autocomplate.js"></script>
+<script src="<?php echo SUB ?>/public/js/autocomplate.js"></script>
 
 <script>
   autocomplete(document . getElementById("myInput"), countries);

@@ -1,46 +1,53 @@
 <?php
+
+    $menus = [];
+
     if (isset($_SESSION['user'])) {
         $role = $_SESSION['user']['role'];
         if ($role === 'pharmacist') {
             $menus = [
-                ['Маҳсулот сотиш', '/pharmacist/sell/'],
-                ['Янги товар номини қўшиш', '/pharmacist/add/'],
-                ['Маҳсулот қабул қилиш', '/pharmacist/purchase/'],
-                ['Статистика', '/'],
+                ['Маҳсулот сотиш', SUB.'/pharmacist/sell/'],
+                ['Янги товар номини қўшиш', SUB.'/pharmacist/add/'],
+                ['Маҳсулот қабул қилиш', SUB.'/pharmacist/purchase/'],
+                ['Статистика', SUB.'/'],
             ];
         } else if ($role === 'kassa') {
             $menus = [
-                ['Бош саҳифа', '/'],
+                ['Бош саҳифа', SUB.'/'],
             ];
         } else if ($role === 'admin') {
             if (isset($this->route['prefix'])) {
                 $menus = [
-                    [__('users', false), '/admin/users/'],
-                    [__('patients', false), '/admin/patient/'],
-                    [__('blog', false), '/admin/blog/create'],
-                    [__('catalog', false), '/admin/catalog/create'],
+                    [__('users', false), SUB.'/admin/users/'],
+                    [__('patients', false), SUB.'/admin/patient/'],
+                    [__('blog', false), SUB.'/admin/blog/create'],
+                    [__('catalog', false), SUB.'/admin/catalog/create'],
                 ];
             } else {
                 $menus = [
-                    ['Бош саҳифа', '/'],
-                    ['Бош саҳифа', '/'],
-                    ['Бош саҳифа', '/'],
+                    ['Бош саҳифа', SUB.'/'],
+                    ['Бош саҳифа', SUB.'/'],
+                    ['Бош саҳифа', SUB.'/'],
                 ];
             }
 
             
         } else if ($role === 'recorder') {
             $menus = [
-                ['Беморни киритиш', '/'],
-                ['Бош саҳифа', '/'],
-                ['Бош саҳифа', '/'],
+                ['Беморни киритиш', SUB.'/'],
+                ['Бош саҳифа', SUB.'/'],
+                ['Бош саҳифа', SUB.'/'],
+            ];
+        } else if ($role === 'manager') {
+            $menus = [
+                ['Нархлар', SUB.'/manager/price'],
             ];
         }
     } else {
         $menus = [
-            [__('home', false), '/'],
-            [__('about', false), '/'],
-            [__('contact', false), '/'],
+            [__('home', false), SUB.'/'],
+            [__('about', false), SUB.'/'],
+            [__('contact', false), SUB.'/'],
         ];
     }
     
